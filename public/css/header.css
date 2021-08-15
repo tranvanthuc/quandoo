@@ -1,0 +1,60 @@
+.header {
+  height: 50px;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.logo {
+  width: 125px;
+}
+
+.header .item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #f0f2f5;
+  display: flex;
+  align-items: center;
+  color: #3a4354;
+  opacity: 0.7;
+}
+
+.icon-search {
+  color: #556178;
+}
+
+.text-search, .icon-user {
+  color: #3a4354;
+  opacity: 0.5;
+}
+
+.icon-user {
+  font-size: 32px;
+}
+
+.text-dropdown {
+  color: #3a4354;
+  opacity: 0.7;
+}
+
+.btn-find {
+  background-color: #f8b333;
+  color: white;
+}
+
+.btn-find:hover {
+  background-color: #db7a00;
+  color: white;
+}
+
+.input-search {
+  flex-basis: 320px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    height: 70px;
+  }
+
+  .logo {
+    width: 177px;
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quandoo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e513c0ed06.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./public/css/default.css" />
+    <link rel="stylesheet" href="./public/css/header.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header d-flex justify-content-between">
+      <!-- header left -->
+      <div class="d-flex align-items-center h-100 px-3 flex-grow-1">
+        <div>
+          <img class="logo" src="./public/images/logo.svg" alt="logo">
+        </div>
+        <div class="ms-3 input-search d-none d-lg-block">
+          <input type="text" class="form-control" placeholder="Find restaurants or cuisines">
+        </div>
+        <div class="ms-3 input-search d-none d-lg-block">
+          <select class="form-select" >
+            <option selected>Singapore</option>
+            <option value="1">Near me</option>
+          </select>
+        </div>
+        <div class="ms-3 d-none d-lg-block">
+          <button type="button" class="btn btn-find px-4">Find</button>
+        </div>
+      </div>
+      <!-- header right -->
+      <div class="d-flex">
+        <div class="item border-start-0 d-lg-none">
+          <i class="fas fa-search icon-search"></i>
+          <span class="ms-2 text-search fw-light">Search</span>
+        </div>
+        <div class="item d-xl-none">
+          <i class="far fa-user-circle icon-user"></i>
+        </div>
+        <div class="item d-none d-xl-flex">
+          Sign up
+        </div>
+        <div class="item d-none d-xl-flex">
+          Log in
+        </div>
+        <div class="item">
+          <div class="dropdown">
+            <div class="text-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              EN <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">France</a></li>
+              <li><a class="dropdown-item" href="#">Vietnamese</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
