@@ -1,3 +1,4 @@
+/* header */
 .header {
   height: 50px;
   border-bottom: 1px solid #f0f2f5;
@@ -21,7 +22,8 @@
   color: #556178;
 }
 
-.text-search, .icon-user {
+.text-search,
+.icon-user {
   color: #3a4354;
   opacity: 0.5;
 }
@@ -48,6 +50,7 @@
 .input-search {
   flex-basis: 320px;
 }
+/* end header */
 
 @media (min-width: 992px) {
   .header {

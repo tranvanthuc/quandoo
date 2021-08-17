@@ -22,6 +22,7 @@
     ></script>
     <link rel="stylesheet" href="./public/css/default.css" />
     <link rel="stylesheet" href="./public/css/header.css" />
+    <link rel="stylesheet" href="./public/css/index.css" />
   </head>
   <body>
     <!-- header -->
@@ -29,13 +30,17 @@
       <!-- header left -->
       <div class="d-flex align-items-center h-100 px-3 flex-grow-1">
         <div>
-          <img class="logo" src="./public/images/logo.svg" alt="logo">
+          <img class="logo" src="./public/images/logo.svg" alt="logo" />
         </div>
         <div class="ms-3 input-search d-none d-lg-block">
-          <input type="text" class="form-control" placeholder="Find restaurants or cuisines">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Find restaurants or cuisines"
+          />
         </div>
         <div class="ms-3 input-search d-none d-lg-block">
-          <select class="form-select" >
+          <select class="form-select">
             <option selected>Singapore</option>
             <option value="1">Near me</option>
           </select>
@@ -53,15 +58,15 @@
         <div class="item d-xl-none">
           <i class="far fa-user-circle icon-user"></i>
         </div>
-        <div class="item d-none d-xl-flex">
-          Sign up
-        </div>
-        <div class="item d-none d-xl-flex">
-          Log in
-        </div>
+        <div class="item d-none d-xl-flex">Sign up</div>
+        <div class="item d-none d-xl-flex">Log in</div>
         <div class="item">
           <div class="dropdown">
-            <div class="text-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <div
+              class="text-dropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               EN <i class="fas fa-chevron-down"></i>
             </div>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -73,5 +78,31 @@
         </div>
       </div>
     </div>
+    <!-- end header -->
+
+    <!-- nav -->
+    <nav
+      class="px-3 px-sm-4 pt-2"
+      style="--bs-breadcrumb-divider: '>'"
+      aria-label="breadcrumb"
+    >
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
+        <li class="breadcrumb-item"><a href="#">Singapore Region</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          <a href="#">Singapore</a>
+        </li>
+      </ol>
+    </nav>
+    <!-- end nav -->
+
+    <!-- banner -->
+    <div class="px-0 px-sm-4 px-lg-5">
+      <div class="banner text-center">
+        <div class="banner-title">Taste Singapore</div>
+        <div class="banner-desc">Discover and book the best restaurants</div>
+      </div>
+    </div>
+    <!-- end banner -->
   </body>
 </html>
